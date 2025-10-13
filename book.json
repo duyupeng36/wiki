@@ -1,0 +1,103 @@
+{
+    "root":".",
+    "author":"杜宇鹏",
+    "title":"计算机科学与技术",
+    "language":"zh-hans",
+    "description":"计算机科学与技术专业课程",
+    "isbn":"000-0-00-000000-0",
+    "direction":"ltr",
+    "gitbook":">=3.2.3",
+    "structure":{
+        "readme":"README.md",
+        "summary":"SUMMARY.md",
+        "glossary":"GLOSSARY.md"
+    },
+    "variables": {
+        "github": "https://github.com/duyupeng36"
+    },
+    "links":{
+        "sidebar":{
+            "CSND":"https://blog.csdn.net/weixin_42470629",
+            "Github":"https://github.com/duyupeng36"
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "pdf":{
+        "pageNumbers":true,
+        "fontFamily":"Arial",
+        "fontSize":12,
+        "paperSize":"a4",
+        "margin":{
+            "right":62,
+            "left":62,
+            "top":56,
+            "bottom":56
+        }
+    },
+    "plugins":[
+        "splitter",
+        "code",
+        "advanced-emoji",
+        "expandable-chapters",
+        "alerts",
+        "flexible-alerts",
+        "popup",
+        "tbfed-pagefooter",
+        "hide-element",
+        "back-to-top-button",
+        "disqus",
+        "-sharing", "sharing-plus",
+        "github",
+        "chapter-fold",
+        "sidebar-style",
+        "katex"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright @duyupeng 2025-2025",
+            "modify_label": "更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "disqus": {
+            "shortName": "wiki"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "twitter": false,
+            "weibo": false,
+            "all": [
+                "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo",
+                "messenger","qq", "qzone","viber","whatsapp"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/duyupeng36"
+        },
+        "sidebar-style": {
+            "title": "计算机科学与技术",
+            "author": "杜宇鹏"
+        },
+        "flexible-alerts": {
+            "style": "callout",
+            "question": {
+                "label": "Question",
+                "icon": "fa fa-question",
+                "className": "warning"
+            }
+        }
+    }
+}

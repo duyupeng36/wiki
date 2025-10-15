@@ -56,7 +56,15 @@
         "github",
         "chapter-fold",
         "sidebar-style",
-        "katex"
+        "katex",
+        "simple-page-toc",
+        "page-toc-button",
+        "-lunr", "-search", "search-plus",
+        "-change_girls",
+        "pageview-count",
+        "prism",
+        "-highlight",
+        "prism-themes"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
@@ -98,6 +106,35 @@
                 "icon": "fa fa-question",
                 "className": "warning"
             }
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "change_girls" : {
+            "time" : 10,
+            "urls" : [
+                "http://cdn.jsdelivr.net/gh/duyupeng36/images@master/pictures/1755692806631-dd5baa4b95bc4ecc919603562064e8ca.jpg", 
+                "http://cdn.jsdelivr.net/gh/duyupeng36/images@master/pictures/1755692806632-ebb99e9e166f4e419335ffef05698360.jpg",
+                "http://cdn.jsdelivr.net/gh/duyupeng36/images@master/pictures/1755692806643-a9230c8ca5fc482381ad9368626c9a81.jpeg",
+                "http://cdn.jsdelivr.net/gh/duyupeng36/images@master/pictures/1755883969636-9fa3bf96ac704d52821b8b90e24eb054.jpg"
+            ]
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            },
+            "ignore": [
+                "mermaid",
+                "eval-js"
+            ]
         }
     }
 }

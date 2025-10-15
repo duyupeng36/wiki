@@ -40,3 +40,9 @@ ISO C++ 定义了 **核心语法** 和 **标准库** 的规则，并且 ISO C++ 
 > [!tip]
 >
 > 主要学习 C++11、C++14、C++17、C++20 和 C++23 这 5 个 C++ 标准
+
+在正式介绍 C++ 语法之前，我们介绍一下如何安装 C++ 编译环境。参考官网上给出的安装步骤即可
+
++ 在 Windows 系统中, 可以选择 [msys2](https://www.msys2.org/) 和 [Microsoft Visual C++](https://learn.microsoft.com/en-us/cpp/?view=msvc-170)
++ 在 Linux 系统中，选择 [GCC](https://gcc.gnu.org/) 和 [LLVM&Clang](https://clang.llvm.org/)。可以直接使用包管理器安装即可
++ 在 MacOS 系统中，选择 选择 [xcode](https://developer.apple.com/xcode/)、 [GCC](https://gcc.gnu.org/) 和 [LLVM&Clang](https://clang.llvm.org/)

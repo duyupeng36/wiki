@@ -5,3 +5,5 @@ services:
       dockerfile: Dockerfile  # 指定dockerfile文件
     ports:
       - "4000:4000"
+    environment:
+      - TZ=Asia/Shanghai 

@@ -1,4 +1,4 @@
-FROM duyupeng/ubuntu:24.04
+FROM 35dn2jjh8x8qtf.xuanyuan.run/duyupeng/ubuntu:24.04
 
 
 # 创建工作目录 /wiki

@@ -60,11 +60,8 @@
         "simple-page-toc",
         "page-toc-button",
         "-lunr", "-search", "search-plus",
-        "-change_girls",
-        "pageview-count",
-        "prism",
-        "-highlight",
-        "prism-themes"
+        "emphasize",
+        "klipse"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {

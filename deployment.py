@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Docker Compose 自动部署脚本
-支持功能：init, start, restart, stop, delete
+支持功能: init, start, restart, stop, delete
 """
 
 import os
@@ -161,6 +161,7 @@ def main():
     parser = argparse.ArgumentParser(description="Docker Compose 自动部署脚本")
     parser.add_argument(
         "action",
+        default="start",
         choices=["init", "start", "restart", "stop", "delete", "status", "logs"],
         help="要执行的操作"
     )

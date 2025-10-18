@@ -1,0 +1,7 @@
+services:
+  wiki:
+    build: 
+      context: . 
+      dockerfile: Dockerfile  # 指定dockerfile文件
+    ports:
+      - "4000:4000"
